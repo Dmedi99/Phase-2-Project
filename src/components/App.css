@@ -1,0 +1,23 @@
+
+.app-container {
+    background-color: lightsalmon;
+    margin:60px ; 
+    height:1100px;
+  }
+  
+  .title {
+    font-size: 30px;
+    margin-bottom: 10px; 
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .content-container {
+    padding: 30px; 
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }

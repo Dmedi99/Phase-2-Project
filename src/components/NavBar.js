@@ -1,14 +1,14 @@
 import React from "react";
 import {NavLink} from "react-router-dom"
-
+import './NavBar.css'
 
 const linkStyles ={
     textDecoration: "none", 
-    color: "#333", 
+    color: "black", 
     padding: "10px 20px", 
     marginRight: "10px", 
     borderRadius: "5px", 
-    border: "1px solid #ccc", 
+    border: "1px solid #ccc",
 }
 
 function NavBar(){

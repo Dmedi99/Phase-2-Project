@@ -1,7 +1,9 @@
 import React from "react";
+import './RecipeList.css'
+
 
 function RecipeList(){
-    return(
+    return (
         <div>This is the recipe list component where it shows all recipes</div>
     )
 }

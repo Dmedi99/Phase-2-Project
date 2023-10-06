@@ -1,10 +1,27 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import './RecipeList.css'
+import RecipeItem from "./RecipeItem";
 
 
-function RecipeList(){
+function RecipeList() {
+    const [recipes, setRecipes] =useState([])
+
+    useEffect(() =>{
+        fetch('http://localhost:8000/recipes')
+        .then((r)=>r.json())
+        .then((recipes) => setRecipes(recipes))
+    }, [])
+
     return (
-        <div>This is the recipe list component where it shows all recipes</div>
+        <section>
+            <h1 className="title">Featured recipes</h1>
+            <ul>
+                {recipes.map((recipe)=>(
+                    <RecipeItem key={recipe.id} recipe={recipe}/>
+                ))}
+            </ul>
+        </section>
+
     )
 }
 

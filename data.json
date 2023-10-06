@@ -1,6 +1,7 @@
 {
     "recipes": [
       {
+        "id": 1,
         "name": "Grilled Chicken Salad",
         "ingredients": [
           "200 grams boneless, skinless chicken breasts",
@@ -15,6 +16,7 @@
         "dietary_info": ["Low Carb", "High Protein"]
       },
       {
+        "id": 2,
         "name": "Keto Avocado Egg Salad",
         "ingredients": [
           "4 hard-boiled eggs, chopped",
@@ -29,6 +31,7 @@
         "dietary_info": ["Keto", "Low Carb"]
       },
       {
+        "id": 3,
         "name": "Paleo Beef and Broccoli",
         "ingredients": [
           "450 grams flank steak, thinly sliced",
@@ -44,6 +47,7 @@
         "dietary_info": ["Paleo", "Low Carb"]
       },
       {
+        "id": 4,
         "name": "High Protein Quinoa Bowl",
         "ingredients": [
           "185 grams quinoa, cooked",

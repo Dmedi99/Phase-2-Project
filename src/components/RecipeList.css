@@ -1,0 +1,25 @@
+/* Styling for the main container */
+.recipe-list-container {
+    padding: 20px;
+  }
+  
+  /* Styling for the title */
+  .title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the list of recipes */
+  .recipe-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Styling for each individual recipe item */
+  .recipe-item {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  

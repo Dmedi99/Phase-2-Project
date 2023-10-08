@@ -1,5 +1,5 @@
 /* 
-The RecipeList component is responsible for fetching the data from the data.json server 
+The RecipeList component is responsible for fetching the data (using useEffect) from the data.json server 
 and setting state for the recipes. That state is then passed to the RecipeItem component 
 to get rendered on the page. 
 */

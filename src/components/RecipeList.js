@@ -14,9 +14,9 @@ function RecipeList() {
     }, []) //empty dependeny array is needed to avoid reccurring GET requests to the server 
 
     return (
-        <section>
+        <section className="recipe-list-container"> 
             <h1 className="title">Featured recipes</h1>
-            <ul>
+            <ul className="recipe-list">
                 {/*Map on the recipes. For each recipe it will render RecipeItem and pass down recipe as a prop*/}
                 {recipes.map((recipe) => (
                     <RecipeItem key={recipe.id} recipe={recipe} />

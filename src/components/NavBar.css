@@ -1,0 +1,24 @@
+/* Style the navbar container */
+.navbar {
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Style the navigation links */
+  .navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Style the active link */
+  .navbar a.active {
+    background: darkgrey;
+  }
+  

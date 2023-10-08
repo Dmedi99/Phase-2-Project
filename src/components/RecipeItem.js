@@ -1,16 +1,7 @@
-/* 
-The RecipeItem component is responsible for iterating the data fetched from the 
-data.json. That data is passed down from the RecipeList component (hence recipe 
-  being an argument for the component) Most of the work is done in the return 
-  JSX of the component. It get the recipe name, ingredients, cook time, prep time 
-  and the dietary information. It uses the .join method meaning which takes in 1 argument 
-  (the separator that will be used to join the elements) in this case a comma 
-*/
-
-
 import React from "react";
 
-
+//recipe is passed down as a prop from RecipeList. prop destructuring is used to avoid writing props.recipe 
+//prop destructuring allows for cleaner code
 function RecipeItem({recipe}){
 
 
@@ -26,7 +17,7 @@ function RecipeItem({recipe}){
       </ul>
             <p>Cook Time: {recipe.cook_time}</p>
             <p>Prep Time: {recipe.prep_time}</p>
-            <p>Dietary Info: {recipe.dietary_info.join(', ')}</p>  
+            <p>Dietary Info: {recipe.dietary_info.join(', ')}</p>  {/*.join method is used combine the array of elements using a comma for organization  */}
         </li>
     )
 }

@@ -3,7 +3,14 @@
     {
       "id": 1,
       "name": "Grilled Chicken Salad",
-      "ingredients": "200 grams boneless, skinless chicken breasts, 200 grams mixed greens, 100 grams cucumber, sliced, 50 grams red onion, thinly sliced, 100 grams cherry tomatoes, halved, 60 ml balsamic vinaigrette dressing",
+      "ingredients": [
+        "200 grams boneless, skinless chicken breasts",
+        "200 grams mixed greens",
+        "100 grams cucumber, sliced",
+        "50 grams red onion, thinly sliced",
+        "100 grams cherry tomatoes, halved",
+        "60 ml balsamic vinaigrette dressing"
+      ],
       "cook_time": "15 minutes",
       "prep_time": "10 minutes",
       "dietary_info": [
@@ -14,7 +21,14 @@
     {
       "id": 2,
       "name": "Keto Avocado Egg Salad",
-      "ingredients": "4 hard-boiled eggs, chopped, 200 grams avocados, diced, 60 ml mayonnaise, 15 ml Dijon mustard, 15 grams fresh cilantro, chopped, Salt and pepper to taste",
+      "ingredients": [
+        "4 hard-boiled eggs, chopped",
+        "200 grams avocados, diced",
+        "60 ml mayonnaise",
+        "15 ml Dijon mustard",
+        "15 grams fresh cilantro, chopped",
+        "Salt and pepper to taste"
+      ],
       "cook_time": "0 minutes",
       "prep_time": "10 minutes",
       "dietary_info": [
@@ -25,7 +39,15 @@
     {
       "id": 3,
       "name": "Paleo Beef and Broccoli",
-      "ingredients": "450 grams flank steak, thinly sliced, 200 grams broccoli florets, 2 cloves garlic, minced, 60 ml coconut aminos, 30 ml coconut oil, 15 grams arrowroot powder, Salt and pepper to taste",
+      "ingredients": [
+        "450 grams flank steak, thinly sliced",
+        "200 grams broccoli florets",
+        "2 cloves garlic, minced",
+        "60 ml coconut aminos",
+        "30 ml coconut oil",
+        "15 grams arrowroot powder",
+        "Salt and pepper to taste"
+      ],
       "cook_time": "20 minutes",
       "prep_time": "15 minutes",
       "dietary_info": [
@@ -36,7 +58,14 @@
     {
       "id": 4,
       "name": "High Protein Quinoa Bowl",
-      "ingredients": "185 grams quinoa, cooked, 175 grams cooked chicken breast, diced, 75 grams steamed broccoli, 75 grams diced red bell pepper, 15 grams fresh parsley, chopped, 30 ml tahini dressing",
+      "ingredients": [
+        "185 grams quinoa, cooked",
+        "175 grams cooked chicken breast, diced",
+        "75 grams steamed broccoli",
+        "75 grams diced red bell pepper",
+        "15 grams fresh parsley, chopped",
+        "30 ml tahini dressing"
+      ],
       "cook_time": "15 minutes",
       "prep_time": "10 minutes",
       "dietary_info": [

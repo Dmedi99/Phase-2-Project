@@ -1,3 +1,16 @@
+/* 
+The RecipeForm component is responsible for creating a form that the user can use to 
+POST a recipe to the recipes.json server. The form must take in the values the 
+user inputs and follow the same strucutre as the json to avoid running into errors. 
+This is a controlled component as is keeps the components state (in this case setFormData)
+in sync with users input. This happens in the handleInputChange function. it targets the value
+and then sets the state. Once the user is done added data to the form the user will hit 
+the submit button which will then run handleSubmit. This makes the POST to the json server and will 
+make it aware if there are any errors via the console. A succesful post will add the data to the 
+server and it will also appear in the Recipes page! 
+*/
+
+
 import React, { useState } from "react";
 import './RecipeForm.css';
 

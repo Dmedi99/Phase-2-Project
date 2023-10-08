@@ -1,3 +1,12 @@
+/* 
+The NavBar component is at the top of the page below the first header of the page.
+It's responsible to let the user navigate to the page they click. If they want to nagivate 
+to the recipe page it will take them to the list of recipes. If they want to go back to the home 
+page they can click on Home and it will take them back. It also adds some style to the NAvBar 
+instead of just having the plain words. 
+*/
+
+
 import React from "react";
 import {NavLink} from "react-router-dom"
 import './NavBar.css'

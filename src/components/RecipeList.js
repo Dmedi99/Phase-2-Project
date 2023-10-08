@@ -1,7 +1,13 @@
+/* 
+The RecipeList component is responsible for fetching the data from the data.json server 
+and setting state for the recipes. That state is then passed to the RecipeItem component 
+to get rendered on the page. 
+*/
+
+
 import React, { useState, useEffect } from "react";
 import './RecipeList.css'
-import RecipeItem from "./RecipeItem";
-
+import RecipeItem from "./RecipeItem"
 
 function RecipeList() {
     const [recipes, setRecipes] =useState([])

@@ -1,22 +1,11 @@
-/* 
-The NavBar component is at the top of the page below the first header of the page.
-It's responsible to let the user navigate to the page they click. If they want to nagivate 
-to the recipe page it will take them to the list of recipes. If they want to go back to the home 
-page they can click on Home and it will take them back. It also adds some style to the NAvBar 
-instead of just having the plain words. 
-
-
-The way this works it by first importing NavLink from the React library and use the to and 
-exact props. To specifies the exact URL path the link should navigate to when clicked. The 
-exact prop ensures that the link is active ONLY if the URL matches exactly. This avois similar
-URLS to become active. 
-*/
 
 
 import React from "react";
 import {NavLink} from "react-router-dom"
 import './NavBar.css'
 
+
+//styles to add for NavBar
 const linkStyles ={
     textDecoration: "none", 
     color: "black", 
@@ -29,6 +18,9 @@ const linkStyles ={
 function NavBar(){
     return (
         <div class="navbar">
+            {/*'to' specifies the path it should navigate to when clicked*/}
+            {/*'exact' ensures that the link is active if and only if the URL matches exactly */}
+            {/*'stlye gets the styling form linkStyles and activeStyle chages the color when the path is active */}
             <NavLink
             to="/"
             exact

@@ -4,6 +4,12 @@ It's responsible to let the user navigate to the page they click. If they want t
 to the recipe page it will take them to the list of recipes. If they want to go back to the home 
 page they can click on Home and it will take them back. It also adds some style to the NAvBar 
 instead of just having the plain words. 
+
+
+The way this works it by first importing NavLink from the React library and use the to and 
+exact props. To specifies the exact URL path the link should navigate to when clicked. The 
+exact prop ensures that the link is active ONLY if the URL matches exactly. This avois similar
+URLS to become active. 
 */
 
 

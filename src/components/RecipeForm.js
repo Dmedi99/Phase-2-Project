@@ -2,8 +2,16 @@ import React, { useState } from "react";
 import './RecipeForm.css';
 
 function RecipeForm() {
-  function handleInputChange(e) {
-    const { name, value } = e.target;
+    const [formData, setFormData] = useState({
+      name: "",
+      ingredients: "",
+      cook_time: "",
+      prep_time: "",
+      dietary_info: "",
+    });
+
+    function handleInputChange(e) {
+        const { name, value } = e.target;
     setFormData({
       ...formData,
       [name]: value,
@@ -47,13 +55,6 @@ function RecipeForm() {
       });
   }
 
-  const [formData, setFormData] = useState({
-    name: "",
-    ingredients: "",
-    cook_time: "",
-    prep_time: "",
-    dietary_info: "",
-  });
 
   return (
     <div>

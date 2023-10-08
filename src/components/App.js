@@ -1,10 +1,10 @@
 import React from "react";
 import './App.css'
 import NavBar from "./NavBar"
-import {Route, Switch} from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom'
 import Home from "./Home"
 import RecipeList from "./RecipeList"
-import RecipeForm from "./RecipeForm" 
+import RecipeForm from "./RecipeForm"
 
 
 
@@ -12,21 +12,33 @@ import RecipeForm from "./RecipeForm"
 function App() {
   return (
     <div className="app-container">
+      {/* Main title */}
       <h1 className="title">What'sCookin.com</h1>
-            <NavBar className="navbar"/>
-            <div className="content-container">
-            <Switch>
-                <Route exact path="/">
-                    <Home />
-                </Route>
-            </Switch>
-            <Route exact path="/recipes">
-                <RecipeList />
-            </Route>
-            <Route exact path="/recipeform">
-                <RecipeForm />
-            </Route>
-            </div>
+      
+      {/* Navigation bar */}
+      <NavBar className="navbar" />
+
+      {/* Content container with routing */}
+      <div className="content-container">
+        {/* Switch component for rendering routes*/}
+        <Switch>
+
+          {/* Home route */}
+          <Route exact path="/">
+            <Home />
+          </Route>
+        </Switch>
+
+        {/* RecipeList route */}
+        <Route exact path="/recipes">
+          <RecipeList />
+        </Route>
+
+        {/* RecipeForm route */}
+        <Route exact path="/recipeform">
+          <RecipeForm />
+        </Route>
+      </div>
     </div>
   );
 }

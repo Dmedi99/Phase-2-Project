@@ -1,23 +1,27 @@
-
 .app-container {
-    background-color: lightsalmon;
-    margin:60px ; 
-    height:1800px;
-  }
-  
-  .title {
-    font-size: 30px;
-    margin-bottom: 10px; 
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .content-container {
-    padding: 30px; 
-  }
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: lightskyblue;
+  padding: 20px;
+}
 
-  .navbar {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-  }
+.app-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.app-nav-bar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.app-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+

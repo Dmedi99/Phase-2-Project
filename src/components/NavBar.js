@@ -5,7 +5,7 @@ import {NavLink} from "react-router-dom"
 import './NavBar.css'
 
 
-//styles to add for NavBar
+//styles to add for NavBar links
 const linkStyles ={
     textDecoration: "none", 
     color: "black", 
@@ -18,9 +18,7 @@ const linkStyles ={
 function NavBar(){
     return (
         <div class="navbar">
-            {/*'to' specifies the path it should navigate to when clicked*/}
-            {/*'exact' ensures that the link is active if and only if the URL matches exactly */}
-            {/*'stlye gets the styling form linkStyles and activeStyle chages the color when the path is active */}
+            {/* Navigation links using NavLink with to and exact props */}
             <NavLink
             to="/"
             exact

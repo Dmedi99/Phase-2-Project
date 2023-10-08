@@ -6,20 +6,17 @@ import Home from "./Home"
 import RecipeList from "./RecipeList"
 import RecipeForm from "./RecipeForm"
 
-
-
-
 function App() {
   return (
     <div className="app-container">
       {/* Main title */}
-      <h1 className="title">What'sCookin.com</h1>
-      
+      <h1 className="app-title">What'sCookin.com</h1>
+
       {/* Navigation bar */}
-      <NavBar className="navbar" />
+      <NavBar className="app-nav-bar" />
 
       {/* Content container with routing */}
-      <div className="content-container">
+      <div className="app-content">
         {/* Switch component for rendering routes*/}
         <Switch>
 
@@ -27,17 +24,17 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
+
+          {/* RecipeList route */}
+          <Route exact path="/recipes">
+            <RecipeList />
+          </Route>
+
+          {/* RecipeForm route */}
+          <Route exact path="/recipeform">
+            <RecipeForm />
+          </Route>
         </Switch>
-
-        {/* RecipeList route */}
-        <Route exact path="/recipes">
-          <RecipeList />
-        </Route>
-
-        {/* RecipeForm route */}
-        <Route exact path="/recipeform">
-          <RecipeForm />
-        </Route>
       </div>
     </div>
   );
